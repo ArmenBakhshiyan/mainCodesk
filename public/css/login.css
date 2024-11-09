@@ -1,0 +1,47 @@
+body {
+     font-family: 'Mukta', sans-serif;
+     height: 100vh;
+     background-image: url('http://www.planwallpaper.com/static/images/Free-Wallpaper-Nature-Scenes.jpg'); 
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: aqua;
+ }
+ .login-reg-panel {
+     background-color: rgba(236, 48, 20, 0.9);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+     width: 400px;
+     text-align: center;
+ }
+ .white-panel {
+     background-color: rgba(255, 255, 255, 1);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+ }
+ .login-show, .register-show {
+     display: none;
+ }
+ .show-log-panel {
+     display: block;
+ }
+ input[type="text"], input[type="password"], input[type="email"] {
+     width: 100%;
+     margin: 10px 0;
+     padding: 15px;
+     border: 1px solid #b5b5b5;
+ }
+ input[type="button"] {
+     width: 100%;
+     background: #444;
+     color: #f9f9f9;
+     border: none;
+     padding: 10px;
+     cursor: pointer;
+ }
+ .borderRed{
+     outline: 3px solid red !important;
+ }

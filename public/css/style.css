@@ -1,0 +1,91 @@
+body{
+     background-color: #fff!important;
+}
+
+.yel{
+     color: rgb(255, 205, 205) !important;
+}
+#botCenter{
+     top:calc(100% - 100px) !important;
+     left:calc(100vw / 2 - 300px)  !important;
+     padding: 3px;
+     background-color:rgb(126, 128, 133) ;
+     z-index: 999 !important;
+}
+.carousel-caption{
+     top:20px !important;
+}
+.carousel-indicators{
+     top:10px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    /* box-sizing: content-box; */
+  flex: 1 1 auto; 
+     /* width: 3px;
+     height: 3px;
+     padding: 1px;
+     margin-right: 3px;
+     margin-left: 3px;
+     text-indent: -999px;
+     cursor: pointer;
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 0;
+     border-top: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+     opacity: 1;
+     transition:  .6s ease; */
+}
+#btn_hover{
+     margin-top: 15px;
+     margin-left: 5px;
+     transition: background-color 0.5s ease;
+}
+#btn_hover:hover{
+     
+     cursor: pointer !important;
+     outline: 3px solid whitesmoke !important;
+     border-radius: 20px !important;
+     opacity: 1;
+}
+
+
+.left_slayd{
+     position: absolute;
+     margin: 0 10px 0 10px;
+}
+.carousel-caption{
+     left: 10px;
+     right: 100px;
+}
+.a_hovr{
+     border: none;
+}
+.a_hovr:hover {
+     outline: 3px solid whitesmoke !important;
+     color: blueviolet !important;
+}
+.sizeBorder{
+     height: 150px !important;
+     top:calc(100vh / 2 - 25px) !important;
+     z-index: 990 !important;
+}
+ button.pasiv{
+     transition: width 3s ease-in-out;
+     
+}
+button.active{
+     top: 10px;
+}
+ .z-index{
+     z-index: 990;
+ }
+ .butClass{
+
+     width: 20px;
+     border: 2px solid rgb(0, 26, 255);
+     border-radius: 10px;
+     z-index: 999;
+     transition:  2s ease-in-out .5s;
+ }
